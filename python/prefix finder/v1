@@ -1,0 +1,10 @@
+strs=["flower","flow","flight"]
+out=strs[0]
+for y in range(len(strs)):
+    working = False
+    while not working:
+        if out != strs[y][:len(out)]:
+            out=out[:-1]
+        else:
+            working = True
+print(out)
