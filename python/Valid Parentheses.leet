@@ -1,0 +1,20 @@
+s=input()
+key={
+    ")":"(",
+    "]":"[",
+    "}":"{",
+}
+storage=[]
+def process():
+    for n in range(len(s)):
+        try:
+            if key.get(s[n])==storage[-1]:
+                storage.pop()
+            else:
+                storage.append(s[n])
+        except KeyError:
+            return False
+        except IndexError:
+            storage.append(s[n])
+    return not storage
+print(process())
