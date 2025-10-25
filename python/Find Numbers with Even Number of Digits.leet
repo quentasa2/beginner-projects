@@ -1,6 +1,6 @@
 count=0
-def finder():
 nums=[12,4781,1247467,123,856]
+def finder():
   for i in range(len(nums)):
       if len(str(nums[i]))%2==0:
           count+=1
