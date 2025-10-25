@@ -1,0 +1,8 @@
+range() min defaults to 0 and it does not count the last number, for example range(1,6) when looped would result in loops n=1,2,3,4,5 being run, not 6, this is useful when using len(array) because len=1+last index so
+if the last number in the range was used in the loop there would be a out of range error.
+
+variables must be declared before being compared or used in any kind of equation, however it doesn't matter if you declare it as 0 or set it to something else.
+
+remember colons after if and for statements
+
+make sure to always have checks in your code
