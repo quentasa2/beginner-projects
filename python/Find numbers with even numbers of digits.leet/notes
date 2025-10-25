@@ -1,0 +1,1 @@
+len() doesn't work on int, however you can do len(str(int)) for it to work as normal.
