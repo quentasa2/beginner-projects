@@ -1,0 +1,3 @@
+"in" allows you to check if a string can be found within another string, for example: "n" in "and" is True whereas "g" in "and" is False.
+you can probably use a similar block of code when looking for all the different substrings within a string.
+This code essentially finds all the substrings that meet a condition and counts them.
