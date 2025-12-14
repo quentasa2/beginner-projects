@@ -1,0 +1,13 @@
+k=0
+s=0
+for n in range(len(string)):
+    if string[n].upper() in "AEIOU":
+        k=k+len(string)-n
+    else:
+        s=s+len(string)-n
+if k>s:
+    print(f"Kevin {k}")
+elif s>k:
+    print("Stuart "+ str(s))
+else:
+    print("Draw")
